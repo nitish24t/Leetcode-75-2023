@@ -1,16 +1,11 @@
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
-        n = len(nums)
-        lsum = 0
-        rsum = sum(nums)
-        for i in range(0,n):
-            elem = nums[i]
-            print("Before : elem:{0}\tlsum:{1}\trsum:{2}".format(elem,lsum,rsum))
+        lsum ,rsum = 0, sum(nums)
+        for i,elem in enumerate(nums):
             rsum -= elem
             if rsum == lsum:
                 return i
             lsum += elem
-            print("After : elem:{0}\tlsum:{1}\trsum:{2}".format(elem,lsum,rsum))
         return -1
       
       
