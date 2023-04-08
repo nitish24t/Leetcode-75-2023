@@ -1,0 +1,83 @@
+Things to cover
+---------------------------
+
+1. Data Structures
+------------------
+	- Array 
+		(rotate elements)
+	- Recursion
+	- Search & Sort (Binary, Bubble, Insersion, Selection, QuickSort, MergeSort, Heapsort(minheap,maxheap))
+	- Stack Queue
+	- Linked List (Single/Double/De-Queue)
+	- Trees Traversal (inorder/Preorder/postorder)
+	- Tree Questions
+		- Find height of tree
+		- Print all the leaf nodes
+		- Print all the left/right nodes
+	- Trie
+	- Decision Tree
+
+2. Dynamic Programming
+----------------------
+
+3. Python Concepts
+------------------
+	- OOPs Concepts
+	- Generators
+	- Decorators
+	- String Functions
+	- Math functions
+	- Python Collections module (https://www.geeksforgeeks.org/python-collections-module/)
+		-deque (https://realpython.com/python-deque/)
+
+
+
+Data Engineering
+----------------
+1. Hadoop Concepts
+	- Storage layer (Namenode, Datanode, High Availability)
+	- Processing layer (YARN/Resource Manager, application master)
+	- How data gets stored in Hadoop?
+	- YARN Architecture
+
+2. Spark Concepts
+	- Spark Architecture
+	- Spark Execution Model
+	- Spark interview questions
+	- Spark interview programs
+	- Spark Performance Optimization
+	- Spark 3.0 new features***
+	- Spark Streaming
+
+3. Kafka
+	- Kafka Architecture
+	- Kafka Concepts
+
+4. DataBricks
+	- DLT (Delta Live Tables)
+		- Autoloader					
+	- Unity Catalog	-> Definition : In Unity Catalog, admins and data stewards manage users and their access to data centrally across all of the workspaces in a Databricks account.
+					-> For metadata storage and governance.
+					-> User and access management.		
+	- Vaccuum -> Remove unused files from a table directory.
+	- Optimize -> Optimizes the layout of Delta Lake data. Optionally optimize a subset of data or colocate data by column. 
+				  If you do not specify colocation, bin-packing optimization is performed.
+	- Z-Ordering -> Colocate column information in the same set of files. 
+				    Co-locality is used by Delta Lake data-skipping algorithms to dramatically reduce the amount of data that needs to be read. 
+				    The effectiveness of the locality drops with each additional column.	
+
+
+DYNAMIC PROGRAMMING
+-------------------
+LINK : https://www.geeksforgeeks.org/dynamic-programming/?ref=lbp
+
+
+GREEDY ALGORITHMS
+-----------------
+LINK : https://www.geeksforgeeks.org/introduction-to-greedy-algorithm-data-structures-and-algorithm-tutorials/
+
+1. Job sequencing problem
+2. Minimum spanning tree
+	- Prims Algorithm
+	- Kruskal's Algorithm
+3. Priority Queue (Used in Job sequencing problem)
