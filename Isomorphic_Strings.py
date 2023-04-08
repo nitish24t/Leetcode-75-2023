@@ -1,5 +1,3 @@
-from collections import Counter
-
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         n = len(s)
@@ -16,7 +14,7 @@ class Solution:
             else:
                 mem_t[t[i]].append(i)
             # print("elems : {0}:{1}, \t count: {2},{3}".format(s[i], t[i], mem_s[s[i]], mem_t[t[i]]))
-            if Counter(mem_s[s[i]]) != Counter(mem_t[t[i]]):
+            if mem_s[s[i]] != mem_t[t[i]]:
                 return False
         # print(mem_s)
         # print(mem_t)
