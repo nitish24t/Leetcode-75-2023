@@ -1,5 +1,7 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
+        if len(s) != len(t):
+            return False
         for x,y in zip(s,t):
             if s.index(x) != t.index(y):
                 return False
