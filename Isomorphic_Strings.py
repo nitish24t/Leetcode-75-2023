@@ -1,11 +1,10 @@
-from collections import OrderedDict
 from collections import Counter
 
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         n = len(s)
-        mem_s = OrderedDict()
-        mem_t = OrderedDict()
+        mem_s = {}
+        mem_t = {}
         for i in range(0,n):
             if s[i] not in mem_s:
                 mem_s[s[i]] = [i]
