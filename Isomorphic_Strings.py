@@ -1,6 +1,9 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        return len(set(s))==len(set(t))==len(set(zip(s,t)))
+        for x,y in zip(s,t):
+            if s.index(x) != t.index(y):
+                return False
+        return True
       
 
 """
