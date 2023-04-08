@@ -6,8 +6,6 @@ class Solution:
             mem_s.append(s.index(elem))
         for elem in t:
             mem_t.append(t.index(elem))
-        print(mem_s)
-        print(mem_t)
         if mem_s == mem_t:
             return True
         return False
