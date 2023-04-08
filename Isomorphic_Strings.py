@@ -1,14 +1,6 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        mem_s = []
-        mem_t = []
-        for elem in s:
-            mem_s.append(s.index(elem))
-        for elem in t:
-            mem_t.append(t.index(elem))
-        if mem_s == mem_t:
-            return True
-        return False
+        return len(set(s))==len(set(t))==len(set(zip(s,t)))
       
 
 """
