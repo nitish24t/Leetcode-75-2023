@@ -70,7 +70,9 @@ Data Engineering
 DYNAMIC PROGRAMMING
 -------------------
 LINK : https://www.geeksforgeeks.org/dynamic-programming/?ref=lbp
-1. Bellman Ford algorithm
+1. 0/1 Knapsack
+2. Bellman Ford algorithm
+
 
 
 GREEDY ALGORITHMS
@@ -83,3 +85,4 @@ LINK : https://www.geeksforgeeks.org/introduction-to-greedy-algorithm-data-struc
 	- Kruskal's Algorithm
 3. Priority Queue (Used in Job sequencing problem)
 4. Dijkstra’s shortest path
+5. Fractional Knapsack
