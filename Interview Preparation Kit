@@ -81,3 +81,4 @@ LINK : https://www.geeksforgeeks.org/introduction-to-greedy-algorithm-data-struc
 	- Prims Algorithm
 	- Kruskal's Algorithm
 3. Priority Queue (Used in Job sequencing problem)
+4. Dijkstra’s shortest path
